@@ -1,0 +1,74 @@
+header{
+	
+	
+	color: #FFFFFF;
+	
+}
+
+#sec-logo{
+	background-color: #193741;
+	padding-top: 50px;
+}
+
+.nav{
+	padding: 5px;
+}
+
+.nav ul{
+	list-style: none;
+	font-size: 20px;
+	padding: 30px 0px 0px;
+	font-weight:inherit;
+	
+}
+.nav li{
+	display: inline;
+}
+
+.nav a:hover{
+	color:#5F7741;
+	text-decoration: none;
+}
+
+.nav a{
+	color:#320722; 
+}
+
+#sec-off{
+	margin: 100px;
+}
+
+#sec-off p{
+	color:#5F7741;
+	padding-top: 15px;
+}
+
+#sec-footer {
+	background-color: #320722;
+	font-size: 12px;
+	color: #FFFFFF;
+	padding: 30px;
+}
+
+#sec-footer ul{
+	
+	list-style: none;
+}
+
+#sec-footer a:hover{color: #666;
+	text-decoration: none;
+	
+}
+
+#sec-footer a{
+	color: #FFFFFF;
+}
+
+#sec-copy{
+	color: white;
+	background-color:#26051B;
+	padding: 16px;
+}
+
+
+

@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>contact us</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-custom.css" rel="stylesheet">
+	<link href="css/style-contact us.css" rel="stylesheet">
+	<meta name="Description" content="Tienda online que ofrece el servicio de renta de carteras,bolsos,billeterasy equipaje de marcas exclusivas y lujosas a precios accesibles">
+	<meta name="Keywords" content="bags,gucci,LV,chanel,brands,woman,rent">
+	
+	
+</head>
+
+<body>
+	<header>
+		<section id="sec-logo">
+	<img src="img/logo-vulgar.png" width="200" class="center-block img-responsive">
+		</section>
+	
+	
+		<section class="nav">
+			<div class="container">
+		<nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  
+                </div>
+            
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="nav">
+                  <ul class="nav navbar-nav navbar-center">
+                    <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="#sec-testimonials">about us</a></li>
+                        <li class="active"><a href="contact-us.html">contact us</a></li>
+					  <li><a href="#">Sign in</a></li>
+					  
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">brands <span class="caret"></span></a>
+                        	<ul class="dropdown-menu">
+                            	<li><a href="#">gucci</a></li>
+                                <li><a href="#">chanel</a></li>
+                            </ul>
+                        </li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+		</div>
+		</section>
+	</header>
+	
+	<section id="formulario">
+		<div class="container">
+			
+			<h2 class="text-left">Contact Us</h2>
+              <form method="get" name="form1" action="" class="col-md-6 ">
+				  <div class="form-group">
+					  <label>Nombre</label>
+					  <input name="nombre" id="nombre" class="form-control" type="text" required maxlength="40">
+				  </div>
+				  
+				  <div class="form-group">
+					  <label>Email</label>
+					  <input name="email" id="email" class="form-control" type="email" required maxlength="40">
+				  </div>
+				  
+				  <div class="form-group">
+					  <label>subject</label>
+					  <input name="subject" id="subject" class="form-control" type="text" required maxlength="40">
+				  </div>
+				  
+				  <div class="form-group">
+					  <label>Mesaje</label>
+					  <input name="Mesaje" id="Mesaje" class="form-control" type="text" required maxlength="40">
+				  </div>
+				  
+				  
+				  	  <div class="form-group">
+					  <button type="submit" class="btn btn-primary">Enviar 
+					  </button>
+				  <button type="reset" class="btn btn-default">Cancelar</button>
+				  
+				  
+				  </div>
+				
+			</form>			
+		
+		</div>
+	
+	</section>
+	
+	<section>
+	<div class="container">
+       
+        <p>puedes encontrarnos en centro morazan blvd. morazan: <pre>mLat y mLng</pre></p>
+        
+        <div class="map_container">
+            <div id="map"></div>
+        </div>
+</div>
+</section>
+	
+			
+			
+	
+	<footer>
+		<section id="sec-footer">
+			<div class="container">
+				<div class="row">
+					
+					
+					<article class="col-md-4 col-sm-12 col-xs-12">
+						<h2>VULGAR</h2>
+						<p>Contact Us</p>
+						<p>Torre Morazan, Torre #2 Oficina 1156<br>
+ 							Tel: +504 2268-1000<br>
+							 Correo: vulgar@icloud.com</p>
+					</article>
+					
+					<article class="col-md-4 col-sm-12 col-xs-12">
+						<ul>
+							<h3>Sitemap</h3>
+							<li><a href="#">Bags</a></li>
+							<li><a href="#">Brands</a></li>
+							<li><a href="#">About us</a></li>
+							<li><a href="#">Press</a></li>
+							<li><a href="#">FAQ</a></li>
+						<li><a href="#">Contact us</a></li>
+							<li><a href="#">Return Policy</a></li>
+							<li><a href="#">Shipping</a></li>
+						</ul>
+					</article>
+							
+					<article class="col-md-4 col-sm-12 col-xs-12">
+					</article>
+				
+				</div>
+			
+			</div>
+		
+		</section>
+		
+		<section id="sec-copy">
+			
+			<p>Copy Right, creado por el grupo numero 1- Diseño Web l - Marzo 8 del 2018</p>
+		
+		
+		</section>
+	
+	</footer>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=false"></script>
+<script src="js/gmaps.js"></script>
+<script>
+$(function () {
+	
+	$(window).load(function(){
+		mostrarMapa();
+	});
+
+	function mostrarMapa(){
+		var map;
+		var mLat = 14.100967; //latitud
+		var mLng = -87.182774; //longitud
+
+		map = new GMaps({
+			div: '#map', //id del <div> donde se mostrará el mapa.
+			lat: mLat,
+			lng: mLng,
+			zoom: 18
+		  });
+		map.addMarker({
+		  lat: mLat,
+		  lng: mLng,
+		  title: 'Vulgar-Don’t buy them just brag them.
+			
+			
+			
+			
+			
+			
+			',
+		  infoWindow: {
+			content: '<p>vulgar-Dont but them just brag them</p>'
+		  }
+		});	
+		
+	}
+});
+</script>
+	
+</body>
+</html>
