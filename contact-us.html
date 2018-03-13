@@ -96,16 +96,20 @@
 	
 	</section>
 	
-	<section>
+	<section id="google-map">
 	<div class="container">
-       
-        <p>puedes encontrarnos en centro morazan blvd. morazan: <pre>mLat y mLng</pre></p>
+        <h2>Encuentranos en centro morazan</h2>
+        
         
         <div class="map_container">
             <div id="map"></div>
         </div>
 </div>
-</section>
+	
+	
+	</section>
+	
+	
 	
 			
 			
@@ -157,10 +161,10 @@
 	</footer>
 	
 	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=false"></script>
-<script src="js/gmaps.js"></script>
-<script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/gmaps.js"></script>
+	<script>
 $(function () {
 	
 	$(window).load(function(){
@@ -169,8 +173,8 @@ $(function () {
 
 	function mostrarMapa(){
 		var map;
-		var mLat = 14.100967; //latitud
-		var mLng = -87.182774; //longitud
+		var mLat = 14.10089; //latitud
+		var mLng = -87.18285; //longitud
 
 		map = new GMaps({
 			div: '#map', //id del <div> donde se mostrará el mapa.
@@ -181,16 +185,9 @@ $(function () {
 		map.addMarker({
 		  lat: mLat,
 		  lng: mLng,
-		  title: 'Vulgar-Don’t buy them just brag them.
-			
-			
-			
-			
-			
-			
-			',
+		  title: 'Nuestra ubicación en gMaps',
 		  infoWindow: {
-			content: '<p>vulgar-Dont but them just brag them</p>'
+			content: '<p>Vulgar-</p>'
 		  }
 		});	
 		
