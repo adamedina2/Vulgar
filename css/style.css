@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700');
+body{
+	font-size: 14px;
+	ont-family: 'Poppins', sans-serif;
+}
 header{
 	
 	
@@ -68,6 +73,24 @@ header{
 	color: white;
 	background-color:#26051B;
 	padding: 16px;
+}
+
+#sec-about{
+	background-color: #FFFFFF;
+	padding: 80px;
+		
+}
+
+
+#sec-about h1{
+	align-content: center;
+	padding: 50px;
+	margin-left: -20px;
+	color:#5F7741; 
+}
+
+.address{
+	padding-top: -15px;
 }
 
 
