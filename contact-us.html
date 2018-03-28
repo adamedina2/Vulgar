@@ -6,6 +6,8 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 	<link href="css/bootstrap-custom.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
 	<link href="css/style-contact us.css" rel="stylesheet">
 	<meta name="Description" content="Tienda online que ofrece el servicio de renta de carteras,bolsos,billeterasy equipaje de marcas exclusivas y lujosas a precios accesibles">
 	<meta name="Keywords" content="bags,gucci,LV,chanel,brands,woman,rent">
@@ -41,7 +43,7 @@
                     <li><a href="index.html">Home</a></li>
                         <li><a href="about-us.html.html">About us</a></li>
                         <li class="active"><a href="contact-us.html">Contact us</a></li>
-					  <li><a href="#">Sign in</a></li>
+					  <li><a href="sign-in.html">Sign in</a></li>
 					  
                         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Brands <span class="caret"></span></a>
                         	<ul class="dropdown-menu">
@@ -103,10 +105,10 @@
 			<article class=" col-sm-6 col-sm-12 col-xs-12">
 				<section id="google-map">
 	<div class="container">
-        <h2>Encuentranos en centro morazan</h2>
+        <h2>Encuentranos en Centro Morazán</h2>
         
         
-        <div class="map_container">
+        <div class="map_container wow fadeInRight">
             <div id="map"></div>
         </div>
 </div>
@@ -122,28 +124,25 @@
 		</div>
 	</section>
 	
-	
-	
-	
-	
-			
-			
-	
 	<footer>
 		<section id="sec-footer">
-			<div class="container">
+			<div class="container ">
 				<div class="row">
 					
 					
-					<article class="col-md-4 col-sm-12 col-xs-12">
+					<article class="col-md-4 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="1s">
 						<h2>VULGAR</h2>
 						<p>Contact Us</p>
 						<p>Torre Morazan, Torre #2 Oficina 1156<br>
  							Tel: +504 2268-1000<br>
 							 Correo: vulgar@icloud.com</p>
+						<p>Siguenos en:</p>
+						<i class="fab fa-facebook-square"></i>
+						<i class="fab fa-instagram"></i>
+						<i class="fab fa-twitter-square"></i>
 					</article>
 					
-					<article class="col-md-4 col-sm-12 col-xs-12">
+					<article class="col-md-4 col-sm-12 col-xs-12 side-map wow fadeInUp" data-wow-delay="1.5s">
 						<ul>
 							<h3>Sitemap</h3>
 							<li><a href="#">Bags</a></li>
@@ -157,17 +156,30 @@
 						</ul>
 					</article>
 							
-					<article class="col-md-4 col-sm-12 col-xs-12">
-						<i class="fab fa-facebook-square"></i>
-						<i class="fab fa-instagram"></i>
-						<i class="fab fa-twitter-square"></i>
+					<article class="col-md-4 col-sm-12 col-xs-12 ">
+						
 					</article>
+							
+				
+				
+				
+				
+				
 				
 				</div>
 			
 			</div>
 		
 		</section>
+	
+	
+	
+	
+	
+			
+			
+	
+	
 		
 		<section id="sec-copy">
 			
@@ -212,6 +224,11 @@ $(function () {
 	}
 });
 </script>
+<script src="js/wow.min.js">
+	</script>
+	<script>
+              new WOW().init();
+              </script>
 	
 </body>
 </html>

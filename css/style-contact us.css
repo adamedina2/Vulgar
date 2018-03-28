@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700');
+
+@import url('https://fonts.googleapis.com/css?family=Sanchez');
 body{
 	font-size: 14px;
-	ont-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 header{
 	
@@ -12,7 +13,8 @@ header{
 
 #sec-logo{
 	background-color: #193741;
-	padding-top: 50px;
+	padding-top: 80px;
+	border-top: #320722 solid 15px; 
 }
 
 
@@ -21,25 +23,7 @@ header{
 	padding: 5px;
 }
 
-.nav ul{
-	list-style: none;
-	font-size: 20px;
-	padding: 30px 0px 0px;
-	font-weight:inherit;
-	
-}
-.nav li{
-	display: inline;
-}
 
-.nav a:hover{
-	color:#5F7741;
-	text-decoration: none;
-}
-
-.nav a{
-	color:#320722; 
-}
 
 #sec-off{
 	margin: 100px;
@@ -97,4 +81,22 @@ header{
 .boton-morado{
 	background-color:#320722; 
 	
+}
+
+.side-map{
+	padding-top: 38px; 
+	
+}
+
+.side-map h3{
+	font-size: 16px;
+}
+
+#formulario h2 {
+	font-family: 'Sanchez', serif;
+	padding-bottom: 15px;
+}
+
+#sec-footer .fab{
+	font-size: 25px;
 }
